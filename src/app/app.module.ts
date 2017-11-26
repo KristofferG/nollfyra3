@@ -11,12 +11,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage
+    HomePage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp, { mode: ‘ios’ }),
+    IonicModule.forRoot(MyApp, { mode: 'ios' })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
